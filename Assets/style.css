@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'source Sans Pro','Gill Sans','Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color:white;
+}
+h2{
+    color: #5b5a14;
+}
+h3{
+    color: #70600e;
+}
+footer{
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 66, 27);
+    text-align: center;
+    font-weight: bold;
+}
+nav a{
+    font-size: 18;
+    font-weight: 400;
+    text-decoration: none;
+}
+nav a:hover{
+    font-weight: bold;
+}
+header .profile{
+    text-align: center;
+}
+.featured-image {
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.profile img{
+    width: 200px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.jumbotron{ 
+    font-size: 20px;
+    padding: 10px;
+    background-color: #47ac18;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav{
+    background-color: rgb(36, 85, 14);
+    padding: 5px;
+}
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: whitesmoke;
+}
+main{
+    padding: 20px;
+    overflow: auto;
+}
+#content{
+    float: left;
+    width: 75%;
+}
+aside{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside{
+        width: 100%;
+        padding: 0;
+    }
+}
